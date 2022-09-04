@@ -2,19 +2,17 @@ using System;
 
 namespace MascotaFeliz.App.Dominio
 {
-    public class Persona
+    public class VisitaPyP
     {
-        public int Identificacion {get;set}
-
-        public string Nombre {get;set;}
-
-        public string Apellidos {get;set;}
-
-        public string Direccion {get;set;}
-
-        public string Telefono {get;set;}
-        
+        public int id {get;set;} 
+        public DateTime fechaVisita {get;set;} 
+        public float temperatura {get;set;} 
+        public float peso {get;set;} 
+        public float frecuenciaRespiratoria {get;set;} 
+        public float frecuenciaCardiaca {get;set;} 
+        public string estadoAnimo {get;set;} 
+        public int idVeterinario {get;set;} 
+        public string recomendaciones {get;set;} 
         
     }
 }
-
